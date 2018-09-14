@@ -1,0 +1,112 @@
+/*公共部分*/
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family:"苹方 粗体";
+}
+a{
+    text-decoration: none;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+    background: #F1F4F9;
+    overflow: hidden;
+}
+/*body{*/
+/*padding: 15px;*/
+/*box-sizing: border-box;*/
+/*!*position: relative;*!*/
+
+/*}*/
+.pull-left{
+    float: left;
+}
+.pull-right{
+    float: right;
+}
+header{
+    width: 100%;
+    height: 58px;
+    background: #4381E6;
+    position: fixed;
+    top:0;
+    left: 0;
+    padding: 0 15px 0 50px;
+    line-height: 58px;
+    color: #fff;
+    box-sizing: border-box;
+    z-index: 1;
+
+}
+.system-name{
+    font-size: 18px;
+    font-family: "苹方 特粗";
+    font-weight: bold;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+    margin-top: 14px;
+    margin-right: 10px;
+}
+.managelogo{
+    width: auto;
+    font-size: 14px;
+    color: rgba(255,255,255,0.6);
+}
+.managelogo div:first-child{
+    width: 28px;
+    height: 28px;
+    margin-top: 15px;
+    border-radius: 50%;
+    background: url("../img/manager.jpg") no-repeat ;
+    background-size: contain;
+    margin-right: 7px;
+}
+.managelogo .manager{
+    margin-right: 12px;
+}
+nav{
+    width: 180px;
+    height: 100%;
+    background: #fff;
+    position: fixed;
+    top:0;
+    left:0;
+}
+.asidenav{
+    width: 100%;
+    height: 100%;
+    padding-top: 58px;
+}
+.asidenav li{
+    width: 178px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+    border-bottom: 1px solid #F4F4F4;
+    border-right: 2px solid #fff;
+}
+.asidenav li a{
+    color: rgba(0,0,0,0.6);
+}
+.asidenav li.selected{
+    background: #ECF2FC;
+    border-right:2px solid #4381E6
+}
+footer{
+    width: 100%;
+    height: 50px;
+    background: #fff;
+    font-size:12px ;
+    color: rgba(0,0,0,0.4);
+    text-align: center;
+    line-height: 50px;
+    z-index: 1;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}

@@ -1,0 +1,294 @@
+@import url(base.css);
+body,html{
+    width: 100%;
+    height: auto;
+}
+/*阴影*/
+.yinying{
+    width: 100%;
+    height: 100%;
+    /*position: absolute;*/
+    background: rgba(0,0,0,0.7);
+    /*z-index: 100;*/
+}
+.yinying .cjjq{
+    width: 392px;
+    height: 190px;
+    background: #fff;
+    position: absolute;
+    border-radius: 5px;
+    top: 41%;
+    left: 41%;
+}
+.yinying .cjjq .gb{
+    width: 100%;
+    height: 38px;
+    border-bottom: 1px solid #f4f4f4;
+    line-height: 38px;
+
+}
+.yinying .cjjq .gb .cj{
+    width: 60px;
+    height: 12px;
+    font-size: 12px;
+    color:#000;
+    margin-left: 20px;
+}
+.yinying .cjjq .gb button{
+    float: right;
+    border: 1px #fff;
+    background: #fff;
+    margin-right: 30px;
+    text-align: center;
+}
+.yinying .cjjq .qb{
+    margin-top: 10%;
+    margin-left: 20%;
+}
+.yinying .cjjq .btn{
+    margin:6% 19%;
+}
+.yinying .cjjq .btn button{
+    width: 82px;
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
+    margin-left: 20px;
+    border-radius: 6px;
+}
+.yinying .cjjq .btn .qd{
+    background: blue;
+    border: 1px solid blue;
+    color: #fff;
+}
+.yinying .cjjq .btn .qx{
+    background: #fff;
+    border: 1px solid #f4f4f4;
+    color: #f4f4f4;
+}
+/*头部*/
+header{
+    width: 100%;
+    height: 58px;
+    background: #4381e6;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 20;
+}
+header .logo{
+    width: 35px;
+    height: 36px;
+    position: fixed;
+    top: 16px;
+    left: 42px;
+}
+header .logo img{
+    width: 35px;
+    height: 36px;
+}
+header .title{
+    font-size: 18px;
+    font-family: FZZYJW;
+    color: #fff;
+    position: fixed;
+    top: 17px;
+    left: 88px;
+    font-weight: bold;
+}
+header .portrait{
+    width: 28px;
+    height: 28px;
+    position: fixed;
+    top: 14px;
+    right: 114px;
+}
+header .portrait img{
+    width: 28px;
+    height: 28px;
+}
+header .use{
+    font-size: 14px;
+    font-family: "苹方";
+    font-weight: bold;
+    color: rgba(255,255,255,0.5);
+    position: fixed;
+    top: 18px;
+    right: 36px;
+}
+.icon-arrow{
+    color: rgba(255,255,255,0.5);
+    font-size: 10px;
+    position: fixed;
+    top: 22px;
+    right: 12px;
+}
+/*侧栏开始*/
+nav{
+    width: 180px;
+    height: 100%;
+    box-shadow: 4px 0 15px rgba(218,218,218,0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 15;
+}
+nav ul{
+    width: 100%;
+    margin-top: 58px;
+}
+nav ul li{
+    width: 100%;
+    height: 41px;
+    border-bottom: 1px solid #f4f4f4;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: "苹方";
+    font-weight: bold;
+    color: rgba(0,0,0,0.6);
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+nav ul .click{
+    color: #4381e6;
+    background: #ecf2fc;
+    border-right: 2px solid #4381e6;
+}
+/*内容*/
+section{
+    width: 100%;
+    height: 100%;
+    box-shadow: 4px 0 15px rgba(218,218,218,0.6);
+    background: #e5e7ec;
+    position:fixed;
+    top: 0;
+    left: 180px;
+    z-index: 10;
+
+}
+section .nrhead{
+    width: 90%;
+    height: 60px;
+    background: #fff;
+    margin-top: 73px;
+    display: flex;
+    margin-left:16px;
+    border-radius: 5px;
+    font-size: 12px;
+    line-height: 60px;
+    color:#b3b3b3;
+}
+section .nrhead .jiedianshu{
+    margin-left: 30px;
+}
+section .nrhead .psg{
+    margin-left: 110px;
+}
+section .nrhead input{
+    width: 155px;
+    height:30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 12px;
+}
+section .nrhead button{
+    width: 82px;
+    height: 30px;
+    background: #4381e6;
+    border-radius: 5px;
+    margin:auto 0;
+    position: fixed;
+    right: 20%;
+    top:87px;
+    border: 1px solid#4381e6;
+}
+/*流量存储*/
+section .liuliang{
+    width: 90%;
+    height: 212px;
+    /*margin-left:16px;*/
+}
+section .liuliang .liul{
+    width: 31%;
+    height: 90px;
+    margin-top: 11px;
+    margin-left: 16px;
+    border-radius: 5px;
+    float: left;
+}
+section .liuliang .liul:hover{
+    transform: translateY(2px);
+}
+section .liuliang .liul .master{
+    text-align: center;
+    line-height: 60px;
+    font-size: 12px;
+    color:#b5d3ff;
+}
+section .liuliang .liul .neicun{
+    text-align: center;
+    line-height: 1px;
+    color:#b5d3ff;
+}
+section .liuliang .liul .neicun span{
+    color:#fff;
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+/*渐变*/
+section .liuliang .liul:nth-child(1){
+     background: linear-gradient(to right,#6589ff,#30c2fb);
+}
+section .liuliang .liul:nth-child(2){
+     background: linear-gradient(to right,#09b9e2,#25eea2);
+}
+section .liuliang .liul:nth-child(3){
+     background: linear-gradient(to right,#fca21d,#ffdc0e);
+}
+section .liuliang .liul:nth-child(4){
+     background: linear-gradient(to right,#fe978c,#fa6e88);
+}
+section .liuliang .liul:nth-child(5){
+     background: linear-gradient(to right,#827dfd,#ee81ea);
+}
+/*实验环境*/
+section .shiyanhuanjing{
+    width: 57.5%;
+    height: 240px;
+    margin-left: 16px;
+    background:#fff;
+    margin-top: 11px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+section .shiyanhuanjing .syhj{
+    width: 70px;
+    height: 14px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 14px;
+    border-left: 2px solid blue;
+    margin-top: 24px;
+    margin-left: 30px;
+    color: #adadad;
+}
+section .shiyanhuanjing .dsj{
+    width: 230px;
+    height: 30px;
+    font-size: 12px;
+    color: #adadad;
+    margin-top: 130px;
+    margin-left: 30px;
+}
+
+section .shiyanhuanjing .zgdt{
+    width: 220px;
+    height: 180px;
+    background:url('../img/zgdt.png')no-repeat center;
+    background-size: 220px 180px;
+    float: right;
+    margin-right: 45px;
+    margin-top: -170px;
+}

@@ -1,0 +1,281 @@
+@import url(base.css);
+body,html{
+    width: 100%;
+    height: auto;
+}
+header{
+    width: 100%;
+    height: 58px;
+    background: #4381e6;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 20;
+}
+header .logo{
+    width: 35px;
+    height: 36px;
+    position: fixed;
+    top: 16px;
+    left: 42px;
+}
+header .logo img{
+    width: 35px;
+    height: 36px;
+}
+header .title{
+    font-size: 18px;
+    font-family: FZZYJW;
+    color: #fff;
+    position: fixed;
+    top: 17px;
+    left: 88px;
+    font-weight: bold;
+}
+header .portrait{
+    width: 28px;
+    height: 28px;
+    position: fixed;
+    top: 14px;
+    right: 114px;
+}
+header .portrait img{
+    width: 28px;
+    height: 28px;
+}
+header .use{
+    font-size: 14px;
+    font-family: "苹方";
+    font-weight: bold;
+    color: rgba(255,255,255,0.5);
+    position: fixed;
+    top: 18px;
+    right: 36px;
+}
+.icon-arrow{
+    color: rgba(255,255,255,0.5);
+    font-size: 10px;
+    position: fixed;
+    top: 22px;
+    right: 12px;
+}
+/*侧栏开始*/
+nav{
+    width: 180px;
+    height: 100%;
+    box-shadow: 4px 0 15px rgba(218,218,218,0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 15;
+}
+nav ul{
+    width: 100%;
+    margin-top: 58px;
+}
+nav ul li{
+    width: 100%;
+    height: 41px;
+    border-bottom: 1px solid #f4f4f4;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: "苹方";
+    font-weight: bold;
+    color: rgba(0,0,0,0.6);
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+nav ul .click{
+    color: #4381e6;
+    background: #ecf2fc;
+    border-right: 2px solid #4381e6;
+}
+/*内容*/
+section{
+    width: 91%;
+    height: 100%;
+    box-shadow: 4px 0 15px rgba(218,218,218,0.6);
+    background: #e5e7ec;
+    position:fixed;
+    top: 0;
+    left: 180px;
+    z-index: 10;
+
+}
+section .nrhead{
+    width: 98.5%;
+    height: 60px;
+    background: #fff;
+    margin-top: 73px;
+    display: flex;
+    margin-left:16px;
+    border-radius: 5px;
+    font-size: 12px;
+    line-height: 60px;
+    color:#b3b3b3;
+}
+section .nrhead .jiedianshu{
+    margin-left: 30px;
+}
+section .nrhead button{
+    width: 82px;
+    height: 30px;
+    background: #4381e6;
+    border-radius: 5px;
+    margin:auto 0;
+    position: fixed;
+    right: 20%;
+    top:87px;
+    border: 1px solid#4381e6;
+}
+/*主节点*/
+section .zhujiedian{
+    width: 98.5%;
+    height: 126px;
+    background: linear-gradient(to right,#6589ff,#30c2fb);
+    margin-left: 16px;
+    margin-top: 11px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+section .zhujiedian .zjd{
+    width: 120px;
+    height: 14px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 14px;
+    border-left: 2px solid #fff;
+    margin-top: 21px;
+    margin-left: 30px;
+    color: #fff;
+}
+section .zhujiedian .zjdx{
+    width: 70%;
+    height: 16px;
+    margin-top: 40px;
+}
+section .zhujiedian .zjdx span{
+    margin-left: 30px;
+    color: #b4ccff;
+    font-size: 14px;
+}
+section .zhujiedian .zjdx input::-webkit-input-placeholder{
+    color:#fff;
+}
+section .zhujiedian .zjdx .maxInput{
+    width: 130px;
+    height: 26px;
+    background: #4482e8;
+    border: 1px solid #4482e8;
+    text-align: center;
+    line-height: 26px;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+section .zhujiedian .zjdx .mixInput{
+    width: 41px;
+    height: 26px;
+    background: #4482e8;
+    border: 1px solid #4482e8;
+    text-align: center;
+    line-height: 26px;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-size: 14px;
+}
+/*从节点内容*/
+section .nrcongjiedian{
+    width: 98.5%;
+    height: 465px;   
+}
+section .nrcongjiedian .congjiedian{
+    width: 30.3%;
+    height:180px;
+    background: #fff;
+    margin:6px 16px;
+    float: left;
+    border-radius: 5px;
+}
+section .nrcongjiedian .congjiedian .cjd{
+    width: 120px;
+    height: 14px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 14px;
+    border-left: 2px solid #37bafc;
+    margin-top:15px;
+    margin-left: 30px;
+    color: #969696;
+}
+section .nrcongjiedian .congjiedian .cjd1{
+    width: 100%;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 30px;
+
+}
+section .nrcongjiedian .congjiedian .cjd1 span{
+    font-size: 14px;
+    margin-top: 18px;
+    margin-left: 10px;
+    color: #dddddd;
+}
+section .nrcongjiedian .congjiedian .maxInput1{
+    width: 130px;
+    height: 26px;
+    background: #ecf2fc;
+    border: 1px solid #ecf2fc;
+    text-align: center;
+    line-height: 26px;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-size: 14px;
+}
+section .nrcongjiedian .congjiedian .maxInput1::-webkit-input-placeholder{
+    color:#4381e6;
+}
+section .nrcongjiedian .congjiedian .maxInput2{
+    width: 41px;
+    height: 26px;
+    background: #e7faed;
+    border: 1px solid #e7faed;
+    text-align: center;
+    line-height: 26px;
+    border-radius: 5px;
+    margin-left: 14px;
+    font-size: 14px;
+}
+section .nrcongjiedian .congjiedian .maxInput2::-webkit-input-placeholder{
+    color:#51d580;
+}
+section .nrcongjiedian .congjiedian .maxInput3{
+    width: 41px;
+    height: 26px;
+    background: #fff6e8;
+    border: 1px solid #fff6e8;
+    text-align: center;
+    line-height: 26px;
+    border-radius: 5px;
+    margin-left: 28px;
+    font-size: 14px;
+}
+section .nrcongjiedian .congjiedian .maxInput3::-webkit-input-placeholder{
+    color:#ffc371;
+}
+section .nrcongjiedian .congjiedian .maxInput4{
+    width: 130px;
+    height: 26px;
+    background: #fef0f3;
+    border: 1px solid #fef0f3;
+    text-align: center;
+    line-height: 26px;
+    border-radius: 5px;
+    margin-left: 28px;
+    font-size: 14px;
+}
+section .nrcongjiedian .congjiedian .maxInput4::-webkit-input-placeholder{
+    color:#fcb7c2;
+}

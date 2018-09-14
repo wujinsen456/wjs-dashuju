@@ -1,0 +1,71 @@
+
+main{
+    width: 100%;
+    height:100%;
+    position: absolute;
+    top: 58px;
+    left: 180px;
+}
+main ul{
+    width: 100%;
+    height: 100%;
+}
+main ul li{
+    width: 379px;
+    height: 214px;
+    margin-left: 15px;
+    margin-top: 15px;
+    float: left;
+    background: #fff;
+    overflow: hidden;
+    border-radius: 5px;
+}
+main ul li h2{
+    width: 83px;
+    height: 14px;
+    padding: 0 9px;
+    box-sizing: border-box;
+    border-left: 2px solid #608ffe;
+    border-right: 2px solid #608ffe;
+    margin: 0 auto;
+    line-height: 14px;
+    font-size: 14px;
+    color: #8d8d8d;
+    text-align: center;
+    margin-top: 22px;
+    margin-bottom: 28px;
+    font-weight: normal;
+}
+main ul li:nth-child(2) h2{
+    width: 190px;
+}
+main ul li h3{
+    width: 100%;
+    height: 23px;
+    font-size: 14px;
+    color: #bcbcbc;
+    text-align: center;
+    line-height: 23px;
+    font-weight: normal;
+}
+main ul li h3 span{
+    color: #4381e6;
+    font-size: 16px;
+    margin: 0 3px;
+}
+main ul li .btn1{
+    width: 111px;
+    height: 29px;
+}
+main ul li .btn{
+    width: 111px;
+    height: 29px;
+    background: #4381e6;
+    border-radius: 5px;
+    margin: 54px auto;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    line-height: 29px;
+    cursor: pointer;
+}
